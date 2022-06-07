@@ -7,9 +7,9 @@ import { animals } from './data.js';
 function App() {
   return (
     <div className="App">
-      <Header name='Chad Stabler'/>
+      <Header greeting='Chad Stabler'/>
       <Main animals={animals}/>
-      <Footer year='2022'/>
+      <Footer email='stablerpsn@gmail.com'/>
     </div>
   );
 }

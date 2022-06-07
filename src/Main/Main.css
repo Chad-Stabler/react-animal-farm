@@ -1,4 +1,6 @@
 main {
     background-size: 100%;
     background-repeat: no-repeat;
+    height: 100em;
+    z-index: 0;
 }
