@@ -3,8 +3,9 @@
 }
 
 .animal-div {
-    border: 5px solid red;
-    border-radius: 5%;
+    border: 2px solid red;
+    background-color: rgba(77, 65, 90, 0.45);
+    border-radius: 3%;
     width: 120px;
     z-index: 1;
 }

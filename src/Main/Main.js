@@ -1,6 +1,6 @@
 import React from 'react';
 import './Main.css';
-import backgroundImg from '../background.jpg';
+import backgroundImg from '../background.png';
 import AnimalDiv from '../AnimalDiv/AnimalDiv';
 
 export default function Main({ animals }) {
