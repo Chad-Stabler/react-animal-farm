@@ -1,6 +1,6 @@
 main {
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100em;
-    z-index: 0;
+    height: 60em;
+    padding: 0%;
 }

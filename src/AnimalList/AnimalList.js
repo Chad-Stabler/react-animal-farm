@@ -1,9 +1,16 @@
+import React from 'react';
 import './AnimalList.css';
+import backgroundImg from '../background.png';
+import AnimalDiv from '../AnimalDiv/AnimalDiv';
 
-export default function AnimalDiv({ name, type, says, top, left }) {
-  return (<div className='animal-div' style={{ position: 'absolute', left: `${left}`, top: `${top}` }}>
-    <p>{ name }</p>
-    <p>They say { says }</p>
-    <img src={`/animals/${type}.svg`}/>
-  </div>);
+export default function Main({ animals }) {
+  return (
+    <main style={{ backgroundImage: `url(${backgroundImg})` }}>
+      {
+        animals.map((animal, i) => 
+          <AnimalDiv {...animal}
+            key={animal.name + i}/>)
+      }
+    </main>
+  );
 }
