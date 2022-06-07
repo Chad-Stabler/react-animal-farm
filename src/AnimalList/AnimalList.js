@@ -1,4 +1,4 @@
-import './AnimalDiv.css';
+import './AnimalList.css';
 
 export default function AnimalDiv({ name, type, says, top, left }) {
   return (<div className='animal-div' style={{ position: 'absolute', left: `${left}`, top: `${top}` }}>

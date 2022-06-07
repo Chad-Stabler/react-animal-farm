@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import backgroundImg from '../background.png';
-import AnimalDiv from '../AnimalDiv/AnimalDiv';
+import AnimalDiv from '../AnimalList/AnimalList';
 
 export default function Main({ animals }) {
   return (
